@@ -1,0 +1,186 @@
+/* Big tablet to 1200px (width smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*  Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  .social-icon-small {
+    font-size: 1em;
+    margin: 20px 20px 10px 0px;
+    padding: 5px;
+  }
+
+  .btn-full:link,
+  .btn-full:visited {
+    font-size: 0.9em;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  /* -------------------------------------------- */
+  /* HEADER */
+  /* -------------------------------------------- */
+
+  /* --- NAV --- */
+
+  .nav .row {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    height: 25px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .main-nav {
+    padding-top: 20px;
+  }
+
+  .main-nav li {
+    font-size: 0.6em;
+    margin-right: 15px;
+  }
+
+  header {
+    height: 400px;
+  }
+
+  /* --- HERO TEXT BOX --- */
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  .hero-text-box h2 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  /* -------------------------------------------- */
+  /* FEATURES */
+  /* -------------------------------------------- */
+
+  .feature-icon {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .feature-item {
+    margin: 15px 0;
+  }
+
+  .feature-item h2 {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+  }
+
+  .feature-item p {
+    font-size: 0.8em;
+    width: 95%;
+    margin: auto;
+    padding: 0 5px;
+  }
+
+  /* -------------------------------------------- */
+  /* WORKS */
+  /* -------------------------------------------- */
+
+  .work-text-overlay h2,
+  .work-text-overlay p {
+    margin-bottom: 7px;
+    font-size: 0.9em;
+  }
+
+  /* -------------------------------------------- */
+  /* TEAM */
+  /* -------------------------------------------- */
+
+  .section-team {
+    margin: 30px 10px;
+  }
+
+  .team-container {
+    width: 24%;
+    display: inline-block;
+    padding: 0px 13px;
+    margin: 10px auto;
+  }
+
+  .team-container p {
+    font-size: 0.7em;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+  }
+
+  /* -------------------------------------------- */
+  /* TESTIMONIALS */
+  /* -------------------------------------------- */
+
+  .section-slider {
+    padding: 0;
+    /* max-width: 100rem; */
+    height: 14rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .testimonial-image {
+    display: none;
+  }
+
+  blockquote {
+    width: 90%;
+  }
+
+  .slider-testimonial {
+    margin: 60px auto;
+  }
+
+  .dots {
+    bottom: 23%;
+    right: 45%;
+    transform: translateX(-45%);
+  }
+
+  .dots__dot {
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-right: 1.3rem;
+  }
+
+  /* -------------------------------------------- */
+  /* DOWNLOAD */
+  /* -------------------------------------------- */
+
+  .section-download {
+    padding: 50px;
+  }
+
+  .download h2 {
+    font-size: 1.2em;
+  }
+
+  .download h3 {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+  }
+}
+
+/* Small phones to small tablets 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+}
