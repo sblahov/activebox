@@ -443,6 +443,7 @@ cite {
   background-color: #3a3e64;
   display: flex;
   flex-direction: row;
+  flex-flow: row wrap;
   align-items: stretch;
 }
 

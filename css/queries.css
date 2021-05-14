@@ -8,7 +8,7 @@
 /*  Small tablet to big tablet from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
   .social-icon-small {
-    font-size: 1em;
+    font-size: 1.6em;
     margin: 20px 20px 10px 0px;
     padding: 5px;
   }
@@ -16,6 +16,10 @@
   .btn-full:link,
   .btn-full:visited {
     font-size: 0.9em;
+  }
+
+  .biography-icons li {
+    text-align: center;
   }
 
   section {
@@ -111,14 +115,28 @@
   }
 
   .team-container {
-    width: 24%;
+    width: 48%;
     display: inline-block;
     padding: 0px 13px;
     margin: 10px auto;
+    text-align: center;
+  }
+
+  .team-container h2 {
+    font-size: 1.4em;
+  }
+
+  .team-container h3 {
+    font-size: 1em;
+  }
+
+  .headshot {
+    width: 80%;
+    margin: 20px auto;
   }
 
   .team-container p {
-    font-size: 0.7em;
+    font-size: 1em;
     margin-bottom: 10px;
     line-height: 1.3em;
   }
@@ -180,7 +198,244 @@
 
 /* Small phones to small tablets 481px to 767px */
 @media only screen and (max-width: 767px) {
+  .social-icon-small {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  /* -------------------------------------------- */
+  /* HEADER */
+  /* -------------------------------------------- */
+
   .main-nav {
     display: none;
+  }
+
+  .nav {
+    margin: 0;
+  }
+
+  .hero-text-box {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+  }
+
+  .hero-text-box h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  /* -------------------------------------------- */
+  /* FEATURES */
+  /* -------------------------------------------- */
+
+  .feature-item {
+    width: 90%;
+  }
+
+  .feature-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .feature-item p {
+    width: 70%;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+  }
+
+  .feature-icon {
+    font-size: 4em;
+  }
+
+  /* -------------------------------------------- */
+  /* WORKS */
+  /* -------------------------------------------- */
+
+  .work-photo-container {
+    width: 50%;
+  }
+
+  /* -------------------------------------------- */
+  /* TEAM */
+  /* -------------------------------------------- */
+
+  .container-row {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .headshot {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .headshot img {
+    border-radius: 50%;
+  }
+
+  .team-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .team-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 7px;
+  }
+
+  .team-container h3 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+
+  .team-container p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  /* -------------------------------------------- */
+  /* TESTIMONIALS */
+  /* -------------------------------------------- */
+
+  .section-slider {
+    height: 14em;
+  }
+
+  .slide {
+    height: 140%;
+  }
+
+  .slider-testimonial {
+    margin: 30px auto;
+  }
+
+  blockquote {
+    width: 95%;
+    font-size: 1.5em;
+  }
+
+  cite {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+
+  .dots {
+    bottom: 15%;
+  }
+
+  .download h2 {
+    font-size: 1.5em;
+  }
+
+  .download h3 {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+
+  /* -------------------------------------------- */
+  /* FOOTER */
+  /* -------------------------------------------- */
+
+  .footer-item {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .footer-item:first-of-type {
+    margin-top: 50px;
+  }
+
+  .footer-item:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  footer h2 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .footer-icons li a {
+    margin-bottom: 0;
+  }
+
+  footer .social-icon-small {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  footer address,
+  .about p {
+    font-size: 1em;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+}
+
+/* Small phones 0 to 480px */
+@media only screen and (max-width: 480px) {
+  /* -------------------------------------------- */
+  /* HEADER */
+  /* -------------------------------------------- */
+  h1 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  .hero-text-box {
+    margin: 60px auto;
+  }
+
+  .hero-text-box h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: 0.9em;
+  }
+
+  /* -------------------------------------------- */
+  /* WORKS */
+  /* -------------------------------------------- */
+  .work-photo-container {
+    width: 100%;
+  }
+
+  .headshot {
+    width: 90%;
+  }
+
+  /* -------------------------------------------- */
+  /* TESTIMONIAL */
+  /* -------------------------------------------- */
+
+  .section-slider {
+    height: 17em;
+  }
+
+  .slide {
+    height: 140%;
+  }
+
+  blockquote {
+    font-size: 1.4em;
+  }
+
+  cite {
+    font-size: 0.8em;
+    margin-bottom: 50px;
+  }
+
+  .dots {
+    bottom: 10%;
+    right: 40%;
+    transform: translateX(-45%);
   }
 }
