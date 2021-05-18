@@ -76,7 +76,7 @@ header {
   background-image: url(img/banner.jpg);
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: auto;
   background-attachment: fixed;
 }
 
@@ -88,8 +88,8 @@ header {
 }
 
 /* --- MAIN NAV --- */
-.nav .row {
-  padding: 30px;
+.navigation {
+  padding: 10px 20px 20px 20px;
 }
 
 .main-nav {
@@ -124,6 +124,17 @@ header {
   border-bottom: 2px solid #e84545;
 }
 
+/* --- STICKY NAV --- */
+.isSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #313454;
+  box-shadow: 0 2px 2px #181929;
+  z-index: 1;
+}
+
 /* --- HERO BOX --- */
 
 h1 {
@@ -153,6 +164,10 @@ h1 {
 /* -------------------------------------------- */
 /* FEATURES */
 /* -------------------------------------------- */
+
+.section-features {
+  padding-bottom: 0;
+}
 
 .feature-row {
   display: flex;
@@ -191,10 +206,6 @@ h1 {
 /* -------------------------------------------- */
 /* WORKS */
 /* -------------------------------------------- */
-
-.section-works {
-  padding: 0;
-}
 
 .works-row {
   width: 100%;

@@ -1,3 +1,39 @@
+const nav = document.querySelector("nav");
+const header = document.querySelector("header");
+const navLinks = document.querySelector(".nav__links");
+
+// Sticky Navigation
+const navHeight = nav.getBoundingClientRect().height;
+
+const observerCallback = function (entries, observer) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) nav.classList.add("isSticky");
+  if (entry.isIntersecting) nav.classList.remove("isSticky");
+};
+
+const observerOptions = {
+  root: null,
+  threshold: 0.1,
+  rootMargin: `-${navHeight}px`,
+};
+
+const headerObserver = new IntersectionObserver(
+  observerCallback,
+  observerOptions
+);
+headerObserver.observe(header);
+
+// Smooth Scrolling
+navLinks.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  if (e.target.classList.contains("nav__link")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+});
+
+// Slider
 const slider = function () {
   const slides = document.querySelectorAll(".slide");
   const dotContainer = document.querySelector(".dots");
