@@ -165,6 +165,8 @@
   .dots {
     bottom: 23%;
     right: 45%;
+    -webkit-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
     transform: translateX(-45%);
   }
 
@@ -459,6 +461,8 @@
   .dots {
     bottom: 10%;
     right: 40%;
+    -webkit-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
     transform: translateX(-45%);
   }
 }
