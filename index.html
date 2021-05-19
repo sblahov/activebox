@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/queries.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
@@ -21,19 +22,27 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/queries.css" />
+
     <title>ActiveBox</title>
   </head>
   <body>
     <header>
       <nav class="navigation">
           <a href="#"><img src="img/logo@2x.png" alt="ActiveBox logo" class="logo" /></a>
-          <ul class="main-nav nav__links">
+          <a class="mobile-nav-icon"
+          ><ion-icon name="menu" class="menu-button"></ion-icon
+        ></a>
+          <ul class="main-nav nav__links toggle-nav-hidden animate__animated">
             <li><a href="#section--1" class="nav__link">Features</a></li>
             <li><a href="#section--2" class="nav__link">Works</a></li>
             <li><a href="#section--3" class="nav__link">Our Team</a></li>
             <li><a href="#section--4" class="nav__link">Testimonials</a></li>
             <li><a href="#section--5" class="nav__link">Download</a></li>
           </ul>
+
       </nav>
 
       <div class="hero-text-box">

@@ -1,6 +1,8 @@
 const nav = document.querySelector("nav");
 const header = document.querySelector("header");
 const navLinks = document.querySelector(".nav__links");
+const mainNav = document.querySelector(".main-nav");
+const menuButton = document.querySelector(".menu-button");
 
 // Sticky Navigation
 const navHeight = nav.getBoundingClientRect().height;
@@ -32,6 +34,37 @@ navLinks.addEventListener("click", function (e) {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
+
+// Mobile Navigation
+menuButton.addEventListener("click", function () {
+  if (mainNav.classList.contains("toggle-nav-hidden")) {
+    mainNav.classList.add("toggle-nav-show", "animate__fadeInDown");
+    mainNav.classList.remove("toggle-nav-hidden");
+    menuButton.setAttribute("name", "close");
+  } else if (mainNav.classList.contains("toggle-nav-show")) {
+    mainNav.classList.add("toggle-nav-hidden");
+    mainNav.classList.remove("toggle-nav-show");
+    menuButton.setAttribute("name", "menu");
+  }
+});
+
+// Animated mobile nav -- having issues with it "catching" when opening and closing the nav
+// menuButton.addEventListener("click", function () {
+//   if (mainNav.classList.contains("toggle-nav-hidden")) {
+//     mainNav.classList.remove("toggle-nav-hidden", "animate__fadeOutUp");
+//     mainNav.classList.add("animate__fadeInDown", "toggle-nav-show");
+//     nav.style.height = "250px";
+//     nav.style.transition = "height 1s";
+//   } else if (mainNav.classList.contains("toggle-nav-show")) {
+//     mainNav.classList.add("animate__fadeOutUp");
+//     setTimeout(function () {
+//       mainNav.classList.remove("toggle-nav-show");
+//       mainNav.classList.add("toggle-nav-hidden");
+//     }, 100);
+//     nav.style.height = "75px";
+//     nav.style.transition = "height 1s";
+//   }
+// });
 
 // Slider
 const slider = function () {

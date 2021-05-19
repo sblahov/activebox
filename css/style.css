@@ -89,7 +89,7 @@ header {
 
 /* --- MAIN NAV --- */
 .navigation {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px;
 }
 
 .main-nav {
@@ -122,6 +122,23 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e84545;
+}
+
+/* --- MOBILE NAV --- */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon {
+  font-size: 2em;
+  color: #fff;
+}
+
+.animate__animate.animate__fadeInDown {
+  --animate-duration: 1s;
 }
 
 /* --- STICKY NAV --- */
