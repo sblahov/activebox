@@ -19,6 +19,13 @@ body {
   overflow-x: hidden;
 }
 
+h2 {
+  color: #313454;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
 .clearfix {
   zoom: 1;
 }
@@ -34,7 +41,7 @@ body {
 }
 
 section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .box {
@@ -44,13 +51,12 @@ section {
 /* --- BUTTONS & ICONS --- */
 
 .social-icon-small {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 20px 20px 10px 0px;
   padding: 5px;
 }
 
-.btn-full:link,
-.btn-full:visited {
+.btn-full {
   font-size: 1em;
   text-decoration: none;
   font-weight: 500;
@@ -66,8 +72,7 @@ section {
 }
 
 .btn-full:hover,
-.btn-full:active,
-.btn-full:focus {
+.btn-full:active {
   background-color: #cf1a1a;
   border: 1px solid #cf1a1a;
 }
@@ -178,7 +183,7 @@ h1 {
   padding-bottom: 50px;
 }
 
-.hero-text-box h2 {
+.hero-text-box p {
   font-weight: 400;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -220,7 +225,7 @@ h1 {
   color: #e84545;
 }
 
-.feature-item h2 {
+.feature-item h3 {
   text-transform: uppercase;
   margin-bottom: 15px;
   font-size: 1.1em;
@@ -239,6 +244,10 @@ h1 {
 
 .works-row {
   width: 100%;
+}
+
+.section-works h2 {
+  margin-bottom: 20px;
 }
 
 .work-photo-container {
@@ -276,7 +285,7 @@ h1 {
   transition: color 0.2s background-color 0.2s;
 }
 
-.work-text-overlay h2,
+.work-text-overlay h3,
 .work-text-overlay p {
   margin-bottom: 5px;
   font-size: 0.8em;
@@ -302,7 +311,11 @@ h1 {
 /* -------------------------------------------- */
 
 .section-team {
-  margin: 40px 15px;
+  margin: 0 15px;
+}
+
+.section-team h2 {
+  margin-bottom: 20px;
 }
 
 .works-row {
@@ -342,35 +355,43 @@ h1 {
   display: inline-block;
 }
 
-.team-container h2 {
+.biography-icons .social-icon-small:active,
+.biography-icons .social-icon-small:hover {
+  color: #000;
+}
+
+.team-container h3 {
   font-weight: 400;
   font-size: 1em;
   margin-bottom: 7px;
 }
 
-.team-container h3 {
+.biography-title {
   text-transform: uppercase;
   font-weight: 700;
   color: #e84545;
-  font-size: 0.7em;
-  margin-bottom: 15px;
+  font-size: 0.8em;
 }
 
 .team-container p {
   font-size: 0.8em;
-  margin-bottom: 15px;
+  margin: 15px auto;
   line-height: 1.4em;
 }
 
 .section-team .social-icon-small {
-  color: #a2a9ac;
+  color: #7e888c;
   border-radius: 2px;
-  border: 0.5px solid #e1e3e4;
+  border: 0.5px solid #7e888c;
 }
 
 /* -------------------------------------------- */
 /* TESTIMONIALS */
 /* -------------------------------------------- */
+.section-testimonial h2 {
+  margin-bottom: 20px;
+}
+
 .section-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -497,7 +518,8 @@ cite {
 
 .download {
   text-align: center;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .download h2 {
