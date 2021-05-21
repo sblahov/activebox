@@ -8,13 +8,13 @@
 /*  Small tablet to big tablet from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
   .social-icon-small {
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin: 20px 20px 10px 0px;
     padding: 5px;
   }
 
   .btn-full {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .biography-icons li {
@@ -47,7 +47,7 @@
   }
 
   .main-nav li {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-right: 15px;
   }
 
@@ -79,13 +79,13 @@
     margin: 15px 0;
   }
 
-  .feature-item h2 {
+  .feature-item h3 {
     margin-bottom: 15px;
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .feature-item p {
-    font-size: 0.8em;
+    font-size: 1em;
     width: 95%;
     margin: auto;
     padding: 0 5px;
@@ -95,7 +95,7 @@
   /* WORKS */
   /* -------------------------------------------- */
 
-  .work-text-overlay h2,
+  .work-text-overlay h3,
   .work-text-overlay p {
     margin-bottom: 7px;
     font-size: 0.9em;
@@ -117,12 +117,12 @@
     text-align: center;
   }
 
-  .team-container h2 {
+  .team-container h3 {
     font-size: 1.4em;
   }
 
-  .team-container h3 {
-    font-size: 1em;
+  .biography-title {
+    font-size: 1.1em;
   }
 
   .headshot {
@@ -162,7 +162,7 @@
   }
 
   .dots {
-    bottom: 23%;
+    bottom: 17%;
     right: 45%;
     -webkit-transform: translateX(-45%);
     -ms-transform: translateX(-45%);
@@ -184,11 +184,11 @@
   }
 
   .download h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .download h3 {
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-bottom: 30px;
   }
 }
@@ -196,9 +196,14 @@
 /* Small phones to small tablets 481px to 767px */
 @media only screen and (max-width: 767px) {
   .social-icon-small {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 30px;
     margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  section {
+    padding: 40px 0;
   }
 
   /* -------------------------------------------- */
@@ -230,7 +235,7 @@
 
   .main-nav li {
     display: block;
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 12px;
   }
 
@@ -262,14 +267,14 @@
     width: 90%;
   }
 
-  .feature-item h2 {
+  .feature-item h3 {
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
   }
 
   .feature-item p {
     width: 70%;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.3em;
     margin-bottom: 30px;
   }
@@ -284,6 +289,15 @@
 
   .work-photo-container {
     width: 50%;
+  }
+
+  .work-text-overlay h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .work-text-overlay p {
+    font-size: 1.3em;
   }
 
   /* -------------------------------------------- */
@@ -309,18 +323,19 @@
     margin: auto;
   }
 
-  .team-container h2 {
+  .team-container h3 {
     font-size: 1.8em;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
   }
 
-  .team-container h3 {
-    font-size: 1.3em;
-    margin-bottom: 20px;
+  .biography-title h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
   }
 
   .team-container p {
     font-size: 1.1em;
+    line-height: 1.3em;
     margin-bottom: 20px;
   }
 
@@ -343,6 +358,7 @@
   blockquote {
     width: 95%;
     font-size: 1.5em;
+    line-height: 1.3em;
   }
 
   cite {
@@ -356,6 +372,7 @@
 
   .download h2 {
     font-size: 1.5em;
+    margin-bottom: 15px;
   }
 
   .download h3 {
@@ -381,9 +398,9 @@
   }
 
   footer h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
   }
   .footer-icons li a {
     margin-bottom: 0;
@@ -396,7 +413,7 @@
 
   footer address,
   .about p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .copyright {
@@ -439,6 +456,13 @@
   /* -------------------------------------------- */
   /* TESTIMONIAL */
   /* -------------------------------------------- */
+  .section-team {
+    margin-bottom: 0px;
+  }
+
+  /* -------------------------------------------- */
+  /* TESTIMONIAL */
+  /* -------------------------------------------- */
 
   .section-slider {
     height: 17em;
@@ -449,7 +473,7 @@
   }
 
   blockquote {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
 
   cite {

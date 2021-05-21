@@ -56,6 +56,10 @@ section {
   padding: 5px;
 }
 
+.social-icon-small:first-of-type {
+  margin-left: 20px;
+}
+
 .btn-full {
   font-size: 1em;
   text-decoration: none;
@@ -228,11 +232,11 @@ h1 {
 .feature-item h3 {
   text-transform: uppercase;
   margin-bottom: 15px;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .feature-item p {
-  font-size: 0.9em;
+  font-size: 1em;
   width: 90%;
   margin: auto;
   padding: 0 5px;
@@ -288,7 +292,7 @@ h1 {
 .work-text-overlay h3,
 .work-text-overlay p {
   margin-bottom: 5px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .overlay-caption {
@@ -362,7 +366,7 @@ h1 {
 
 .team-container h3 {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 7px;
 }
 
@@ -370,11 +374,11 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   color: #e84545;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .team-container p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 15px auto;
   line-height: 1.4em;
 }
@@ -465,7 +469,7 @@ blockquote {
 cite {
   text-transform: uppercase;
   color: #fff;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-family: "raleway", "arial", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -566,9 +570,9 @@ cite {
 
 footer h2 {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 footer address {
@@ -598,8 +602,8 @@ footer .social-icon-small:hover {
 
 footer address,
 .about p {
-  font-size: 0.8em;
-  color: #aeb5b9;
+  font-size: 0.9em;
+  color: #c5cfd4;
   line-height: 1.375em;
 }
 
@@ -617,9 +621,9 @@ footer address,
   width: 100%;
   text-align: center;
   padding: 40px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   background-color: #313454;
-  color: #aeb5b9;
+  color: #c5cfd4;
   line-height: 1.5em;
 }
 
